@@ -14,4 +14,4 @@ network.o: network.cpp network.h
 tests.o: tests.cpp doctest.h
 
 clean:
-	rm -rf *o a.out
+	rm -rf *o a.out tests main
